@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   # root "posts#index"
   get '/home', to: 'home#index'
   get '/health', to: 'home#health'
+  root "home#index"
 end
